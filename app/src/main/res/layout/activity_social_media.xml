@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Social_Media_Activity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/toolbar"
+        app:titleTextColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:background="@drawable/social_media_layout_bg"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:text="Facebok"
+                android:textColor="@color/black"
+                android:contentDescription="@string/app_name"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/view_login" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:hint="Enter facebook profile link"
+                android:inputType="textWebEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/textView_login"
+                android:textColorHint="@color/textView_hint_login"
+                android:theme="@style/editText_style"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_below="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:background="@drawable/social_media_layout_bg"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:text="Instagram"
+                android:textColor="@color/black"
+                android:contentDescription="@string/app_name"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/view_login" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/insta"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:hint="Enter instagram profile link"
+                android:inputType="textWebEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/textView_login"
+                android:textColorHint="@color/textView_hint_login"
+                android:theme="@style/editText_style"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_below="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:background="@drawable/social_media_layout_bg"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:text="You Tube"
+                android:textColor="@color/black"
+                android:contentDescription="@string/app_name"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/view_login" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/youtube"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:hint="Enter youtube channel link"
+                android:inputType="textWebEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/textView_login"
+                android:textColorHint="@color/textView_hint_login"
+                android:theme="@style/editText_style"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:weightSum="2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bn_submit"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="Submit"
+                app:cornerRadius="25dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                app:backgroundTint="@color/about_name_line"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

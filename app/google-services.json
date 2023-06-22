@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1060537501391",
+    "firebase_url": "https://premium-quotes-34380-default-rtdb.firebaseio.com",
+    "project_id": "premium-quotes-34380",
+    "storage_bucket": "premium-quotes-34380.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060537501391:android:3cd9da7334a43549eb19ba",
+        "android_client_info": {
+          "package_name": "com.pk.Shayari2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060537501391-4g9ev95l0ggtra57u1c6l02hhu4fqcnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pk.Shayari2",
+            "certificate_hash": "43ccbee43a65321db1edbe16a8e7b26ca0886457"
+          }
+        },
+        {
+          "client_id": "1060537501391-q14p71spfl5eojc9tu5kbb352dh45nkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCfIXP3UEknBcs2MzKP_L_lI9ASPLxuso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060537501391-q14p71spfl5eojc9tu5kbb352dh45nkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

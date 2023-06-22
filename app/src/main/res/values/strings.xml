@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">QuotesApps</string>
+    <string name="facebook_app_id">733759333897999</string>
+    <string name="fb_login_protocol_scheme">fb733759333897999</string>
+
+    <string name="logout">Logout</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="follow">Follow</string>
+    <string name="status">Status</string>
+    <string name="value">0</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="button_text_login">LOGIN</string>
+    <string name="button_text_skip">Skip</string>
+    <string name="button_text_forgot_password">FORGOT PASSWORD ?</string>
+    <string name="textView_forget_password">Forget your password ?</string>
+    <string name="google_login">Login With Google</string>
+    <string name="facebook_login">Login With facebook</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="button_text_register">Create new Account</string>
+    <string name="name">Name</string>
+    <string name="phoneNo">Phone No</string>
+    <string name="conform_password">Conform Password</string>
+    <string name="already_have_an_account_yet">Already have an account yet ?</string>
+    <string name="register_login_text">Login</string>
+    <string name="submit">Submit</string>
+    <string name="reference_code">Reference Code</string>
+    <string name="ok">OK</string>
+    <string name="internet_connection">Internet connection not available</string>
+    <string name="button_text_next">NEXT</string>
+
+    <string name="home">Home</string>
+    <string name="category">Category</string>
+    <string name="favorites">Favorites</string>
+    <string name="reward">Reward</string>
+    <string name="my_download">My Download</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Settings</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="faq">Faq</string>
+    <string name="action_logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="upload_status">Upload Status</string>
+    <string name="spinner">Lucky Wheel</string>
+
+    <string name="choose_upload_option">Choose your upload option</string>
+    <string name="upload_status_des">Pick up the most desire Videos, Images, Quotes and GIFs.</string>
+    <string name="upload_quotes">Upload Quotes</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_gif">Upload Gif</string>
+    <string name="upload_video">Upload Video</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload">Upload</string>
+    <string name="image_title">Image Title</string>
+    <string name="add_image_file">Add Image File</string>
+    <string name="no_file_selected">Recommended resolution 800x500,650x450</string>
+    <string name="image_type">Image Type</string>
+    <string name="image_category_name">Image category name</string>
+    <string name="language">Language</string>
+    <string name="tag">Tag</string>
+    <string name="hint_tag">ex : nature,  goodmorning</string>
+    <string name="text_style">Text Style</string>
+    <string name="quotes_category_name">Quotes category name</string>
+    <string name="see_all">SEE All</string>
+    <string name="portrait_status">Portrait</string>
+    <string name="add_gif_file">Add GIF File</string>
+    <string name="entergiftitle">Enter gif title</string>
+    <string name="pradum_kumar">Pradum Kumar</string>
+    <string name="data">12-10-2001</string>
+    <string name="country_code">+91</string>
+    <string name="user_not_instagram_link">User has not added instagram profile link</string>
+    <string name="wrong">Something went to wrong please try again later</string>
+    <string name="user_not_youtube_link">User has not added youtube profile link</string>
+
+    <style name="TextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">733759333897999</string>
+    <string name="fb_login_protocol_scheme">fb733759333897999</string>
+
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="button_text_login">LOGIN</string>
+    <string name="button_text_skip">Skip</string>
+    <string name="button_text_forgot_password">FORGOT PASSWORD ?</string>
+    <string name="textView_forget_password">Forget your password ?</string>
+    <string name="google_login">Login With Google</string>
+    <string name="facebook_login">Login With facebook</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="button_text_register">Create new Account</string>
+    <string name="name">Name</string>
+    <string name="phoneNo">Phone No</string>
+    <string name="conform_password">Conform Password</string>
+    <string name="already_have_an_account_yet">Already have an account yet ?</string>
+    <string name="register_login_text">Login</string>
+    <string name="submit">Submit</string>
+</resources>
